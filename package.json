@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Blakem2399/Blog/issues"
   },
-  "homepage": "https://github.com/Blakem2399/Blog#readme"
+  "homepage": "https://github.com/Blakem2399/Blog#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
