@@ -1,9 +1,10 @@
 $roberto: 'Roboto', sans-serif;
-$charcoal: #0c0c0c;
+$charcoal: #2A2A2A;
 $tech-blue: #4484fe;
 $dark-blue: #3466DD;
 $teal: #51c1e1;
 $grey: #e6ebf6;
+
 
 
 body{
@@ -13,4 +14,76 @@ body{
   width: 100%;
   font-family: $roberto;
   background-color: $charcoal;
+  color: $grey;
+
+}
+h1{
+  color: $tech-blue;
+}
+a{
+  text-decoration: none;
+  color: $grey;
+
+}
+a:visited {
+  text-decoration: none;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: $charcoal;
+}
+.btn {
+  padding: 12px 18px;
+  font-size: 14px;
+  background-color: $grey;
+  border: 1px solid $tech-blue;
+  color: $tech-blue;
+  border-radius: 20px;
+
+}
+.actionbtn {
+  @extend .btn;
+  border: none;
+  color: $grey;
+  background-color: $teal;
+}
+
+.btn:focus {
+  outline: none;
+  background-color: $dark-blue;
+  color: white;
+
+
+}
+.logo{
+  height: 50px;
+  width: auto;
+  position: fixed;
+  padding-top: -10px ;
+}
+.circle{
+  background: $teal;
+  height: 75px;
+  width: 75px;
+  border-bottom-right-radius: 50%;
+  position: fixed;
+}
+.nav{
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    li{
+
+    }
+  }
+}
+.container{
+  display: flex;
+  align-items: center;
+  height: 25%;
 }
