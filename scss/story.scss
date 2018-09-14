@@ -2,14 +2,15 @@
 .left, .right{
   flex-grow: 1;
  background-color: $tech-blue;
-
+  width: 15%;
+  height: 430px;
   padding: 5px;
   margin: 20px;
+  border-radius: 5px;
 }
 .center{
   flex-grow: 2;
-  background-color: $grey;
-  color: $charcoal;
+  color: white;
   padding: 5px;
   margin:auto;
   width: 75%;
@@ -18,5 +19,9 @@
 @media only screen and (max-width: $small){
   .structure{
     display: block;
+  }
+  .left, .right{
+    width: 100%;
+    height: 10vh;
   }
 }
