@@ -29,7 +29,8 @@ a:visited {
   background-color: #e6ebf6;
   border: 1px solid #4484fe;
   color: #4484fe;
-  border-radius: 20px; }
+  border-radius: 20px;
+  width: 150px; }
 
 .actionbtn {
   border: none;

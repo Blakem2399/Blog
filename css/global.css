@@ -29,7 +29,8 @@ a:visited {
   background-color: #e6ebf6;
   border: 1px solid #4484fe;
   color: #4484fe;
-  border-radius: 20px; }
+  border-radius: 20px;
+  width: 150px; }
 
 .actionbtn {
   border: none;
@@ -68,17 +69,13 @@ a:visited {
     padding: 14px 16px;
     border-right: 1px solid #51c1e1; }
 
-<<<<<<< HEAD
 .structure {
   display: flex;
   justify-content: space-around;
   width: 80vw;
   margin: auto; }
 
-.post-structure {
-=======
 .post-structure, .container {
->>>>>>> d130a52e402a920dcb306f8c3158432525710051
   display: flex;
   justify-content: space-around;
   align-items: center; }
