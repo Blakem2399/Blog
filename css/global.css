@@ -37,21 +37,25 @@ a:visited {
   background-color: #51c1e1; }
 
 .btn:focus, .actionbtn:focus {
-  outline: none;
-  background-color: #3466DD;
-  color: white; }
+  outline: none; }
+
+.btn:hover, .actionbtn:hover {
+  background-color: #4484fe;
+  color: #e6ebf6;
+  border-color: #e6ebf6; }
 
 .logo {
   height: 50px;
   width: auto;
   position: fixed;
-  padding-top: -10px; }
+  padding-top: 10px;
+  padding-left: 10px; }
 
 .circle {
   background: #51c1e1;
-  height: 60px;
-  width: 60px;
-  border-bottom-right-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border-bottom-right-radius: 100%;
   position: fixed; }
 
 .nav ul {
@@ -61,10 +65,19 @@ a:visited {
   display: flex;
   justify-content: flex-end; }
   .nav ul li {
-    padding: 14px 16px; }
+    padding: 14px 16px;
+    border-right: 1px solid #51c1e1; }
+
+.post-structure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 25%; }
+  @media screen and (max-width: 400px) {
+    .container {
+      flex-direction: column-reverse; } }

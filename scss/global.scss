@@ -1,3 +1,7 @@
+$small: 400px;
+$medium: 600pc;
+$large: 900px;
+
 $roberto: 'Roboto', sans-serif;
 $charcoal: #2A2A2A;
 $tech-blue: #4484fe;
@@ -52,22 +56,25 @@ a:visited {
 
 .btn:focus {
   outline: none;
-  background-color: $dark-blue;
-  color: white;
 
-
+}
+.btn:hover{
+  background-color: $tech-blue;
+  color: $grey;
+  border-color: $grey;
 }
 .logo{
   height: 50px;
   width: auto;
   position: fixed;
-  padding-top: -10px ;
+  padding-top: 10px ;
+  padding-left: 10px;
 }
 .circle{
   background: $teal;
-  height: 60px;
-  width: 60px;
-  border-bottom-right-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border-bottom-right-radius: 100%;
   position: fixed;
 }
 .nav{
@@ -79,13 +86,25 @@ a:visited {
     justify-content: flex-end;
     li{
       padding: 14px 16px;
+      border-right: 1px solid $teal;
     }
   }
+}
+.post-structure{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 25%;
+  @media screen and (max-width: $small){
+    flex-direction: column-reverse;
+
+  }
 }
+
+
 

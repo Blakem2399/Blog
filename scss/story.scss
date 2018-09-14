@@ -1,1 +1,15 @@
 @import "global";
+.left .right{
+  flex-grow: 1;
+ background-color: $tech-blue;
+
+  padding: 5px;
+  margin: 5px;
+}
+.center{
+  flex-grow: 2;
+  Background-color: $grey;
+  color: $charcoal;
+  padding: 5px;
+
+}
