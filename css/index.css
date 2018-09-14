@@ -68,22 +68,23 @@ a:visited {
     padding: 14px 16px;
     border-right: 1px solid #51c1e1; }
 
-.post-structure {
+.post-structure, .container {
   display: flex;
   justify-content: space-around;
   align-items: center; }
 
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 25%; }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 900px) {
     .container {
-      flex-direction: column-reverse; } }
+      flex-direction: column-reverse;
+      justify-content: center; } }
 
 .hero-img {
   height: 600px; }
+  @media screen and (max-width: 900px) {
+    .hero-img {
+      height: 50vw; } }
 
 .left-side {
   padding: 20px;

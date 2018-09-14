@@ -1,5 +1,5 @@
 $small: 400px;
-$medium: 600pc;
+$medium: 600px;
 $large: 900px;
 
 $roberto: 'Roboto', sans-serif;
@@ -96,14 +96,15 @@ a:visited {
   align-items: center;
 }
 .container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @extend .post-structure;
   height: 25%;
-  @media screen and (max-width: $small){
+
+  @media screen and (max-width: $large){
     flex-direction: column-reverse;
+    justify-content: center;
 
   }
+
 }
 
 
