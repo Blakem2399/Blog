@@ -1,15 +1,22 @@
 @import "global";
-.left .right{
+.left, .right{
   flex-grow: 1;
  background-color: $tech-blue;
 
   padding: 5px;
-  margin: 5px;
+  margin: 20px;
 }
 .center{
   flex-grow: 2;
-  Background-color: $grey;
+  background-color: $grey;
   color: $charcoal;
   padding: 5px;
+  margin:auto;
+  width: 75%;
+}
 
+@media only screen and (max-width: $small){
+  .structure{
+    display: block;
+  }
 }

@@ -68,6 +68,12 @@ a:visited {
     padding: 14px 16px;
     border-right: 1px solid #51c1e1; }
 
+.structure {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  margin: auto; }
+
 .post-structure {
   display: flex;
   justify-content: space-around;

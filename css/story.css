@@ -68,6 +68,12 @@ a:visited {
     padding: 14px 16px;
     border-right: 1px solid #51c1e1; }
 
+.structure {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  margin: auto; }
+
 .post-structure {
   display: flex;
   justify-content: space-around;
@@ -82,14 +88,20 @@ a:visited {
     .container {
       flex-direction: column-reverse; } }
 
-.left .right {
+.left, .right {
   flex-grow: 1;
   background-color: #4484fe;
   padding: 5px;
-  margin: 5px; }
+  margin: 20px; }
 
 .center {
   flex-grow: 2;
-  Background-color: #e6ebf6;
+  background-color: #e6ebf6;
   color: #2A2A2A;
-  padding: 5px; }
+  padding: 5px;
+  margin: auto;
+  width: 75%; }
+
+@media only screen and (max-width: 400px) {
+  .structure {
+    display: block; } }
