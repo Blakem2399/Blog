@@ -67,7 +67,8 @@ a:visited {
   justify-content: flex-end; }
   .nav ul li {
     padding: 14px 16px;
-    border-right: 1px solid #51c1e1; }
+    border-right: 1px solid #51c1e1;
+    border-bottom: 1px solid #51c1e1; }
 
 .structure {
   display: flex;

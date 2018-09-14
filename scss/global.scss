@@ -85,9 +85,12 @@ a:visited {
     padding: 0;
     display: flex;
     justify-content: flex-end;
+
+
     li{
       padding: 14px 16px;
       border-right: 1px solid $teal;
+      border-bottom: 1px solid $teal;
     }
   }
 }
