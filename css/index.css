@@ -5,7 +5,8 @@ body {
   width: 100%;
   font-family: "Roboto", sans-serif;
   background-color: #2A2A2A;
-  color: #e6ebf6; }
+  color: #e6ebf6;
+  overflow-x: hidden; }
 
 h1 {
   color: #4484fe; }
@@ -20,8 +21,7 @@ a:visited {
 .main {
   height: 100%;
   width: 100%;
-  overflow: hidden;
-  background-color: #2A2A2A; }
+  overflow: hidden; }
 
 .btn, .actionbtn {
   padding: 12px 18px;
@@ -85,7 +85,8 @@ a:visited {
   @media screen and (max-width: 900px) {
     .container {
       flex-direction: column-reverse;
-      justify-content: center; } }
+      justify-content: center;
+      overflow-x: hidden; } }
 
 .hero-img {
   height: 600px; }
@@ -98,3 +99,15 @@ a:visited {
   width: 40%;
   display: flex;
   flex-direction: column; }
+
+.slant {
+  position: absolute;
+  width: 150%;
+  height: 40vh;
+  background-color: #3466DD;
+  transform: rotate(-10deg);
+  z-index: -1; }
+
+@media only screen and (max-width: 900px) {
+  .slant {
+    display: none; } }

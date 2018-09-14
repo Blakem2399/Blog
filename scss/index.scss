@@ -18,3 +18,18 @@
   flex-direction: column;
 
 }
+
+.slant{
+  position: absolute;
+  width: 150%;
+  height: 40vh;
+  background-color: $dark-blue;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+@media only screen and (max-width: $large){
+  .slant{
+    display: none;
+  }
+}
